@@ -82,6 +82,8 @@ load those reviews to a list
 Preprocess it which means getting rid of common and stopwords and tokenizing them to find out the most occuring words 
 ![stopwords](https://user-images.githubusercontent.com/33875100/45507712-82b7a280-b7b0-11e8-93f5-803b2d9e2b45.PNG)
 
+### Step 6:
+
 Now with the set of these we can go ahead and create the WordCloud for Nissan-Terrano's Reviews(the low ratings). 
 
 ```python
@@ -97,6 +99,6 @@ plt.axis("off")
 plt.show()
 ```
 
-which will produce the WordCloud 
+Which will produce the WordCloud 
 
 ![hondacity-lowreviews](https://user-images.githubusercontent.com/33875100/45507921-feb1ea80-b7b0-11e8-9044-b0e879076011.PNG)
